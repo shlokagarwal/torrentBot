@@ -1,0 +1,1301 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hi ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hola!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there I want to watch a movie",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "what's up?",
+        "intent": "greet ",
+        "entities": []
+      },
+      {
+        "text": "fuck you",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "useless",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "get lost",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "get me the godfather",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "the godfather",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me Chernobyl",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Chernobyl",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me dilwale dulhania le jaayenge",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 35,
+            "value": "dilwale dulhania le jaayenge",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch 3 idiots",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "3 idiots",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch the godfather",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 16,
+            "end": 29,
+            "value": "the godfather",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch sky fall",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "sky fall",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "detective pikachu",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "detective pikachu",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "Schindler's list",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Schindler's list",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "Star Wars",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Star Wars",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "Star Wars 5",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Star Wars 5",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch the Shawshank redemption",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 16,
+            "end": 40,
+            "value": "the Shawshank redemption",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch dil dhadakne do ",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 16,
+            "end": 32,
+            "value": "dil dhadakne do ",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me Padmavati",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Padmavati",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "I want to download Chernobyl",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Chernobyl",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "torrent link for Chernobyl",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "value": "Chernobyl",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "Chernobyl",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Chernobyl",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "lust stories",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "lust stories",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "link for Hera pheri",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Hera pheri",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "is the godfather available on Netflix?",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 3,
+            "end": 16,
+            "value": "the godfather",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "where can I watch the godfather",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 18,
+            "end": 31,
+            "value": "the godfather",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "where can I watch youngistan",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 18,
+            "end": 28,
+            "value": "youngistan",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "haan",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sure",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "see you around",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "thanksss",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "thankss",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "thank you",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "thank you so much",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "tysm",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "love you ",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "you're the best ",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "hell yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yup",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yes please",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "of course",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that sounds great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "that's not it",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "I don't think so ",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no way ",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "not really",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "that's the wrong movie",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "wrong",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "wrong movie",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "well done",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "great thank you",
+        "intent": "thank",
+        "entities": []
+      },
+      {
+        "text": "iOS",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "iOS",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "ios",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ios",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "I'm on iOS",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "iOS",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "im using ios",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "ios",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "android",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "android",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "im on android",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "android",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "using iOS",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "iOS",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "I am using android",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 11,
+            "end": 18,
+            "value": "android",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "web",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "web",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "im using web browser",
+        "intent": "inform_device",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "web",
+            "entity": "device"
+          }
+        ]
+      },
+      {
+        "text": "primevideo",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I have prime subscription",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "prime video",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch it on prime video",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch it on primevideo",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 22,
+            "end": 27,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "prime video please ",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I am using primevideo ",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "Netflix",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I will watch on Netflix",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I have Netflix",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I have hotstar",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "hotstar",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I have Netflix subscription",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "hotstar",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "hotstar",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "watch it on primevideo",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "watch it on Netflix",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "watch it on hotstar",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "hotstar",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I'll watch it on hotstar",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "value": "hotstar",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "green book",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "green book",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "green book in 1080p",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "green book",
+            "entity": "query"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "1080p",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "green book on prime",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "green book",
+            "entity": "query"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "green book in 1080p on prime",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "green book",
+            "entity": "query"
+          },
+          {
+            "start": 14,
+            "end": 19,
+            "value": "1080p",
+            "entity": "quality"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch the movie green book in 1080p on primevideo",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "value": "green book",
+            "entity": "query"
+          },
+          {
+            "start": 40,
+            "end": 45,
+            "value": "1080p",
+            "entity": "quality"
+          },
+          {
+            "start": 49,
+            "end": 54,
+            "value": "prime",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "Netflix and chill",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "Netflix and chill baby",
+        "intent": "inform_provider",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "12 years a slave",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "12 years a slave",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "12 years a slave in 720p",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "12 years a slave",
+            "entity": "query"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "720p",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "good fellas",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "good fellas",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "goodfellas 1080p",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "goodfellas",
+            "entity": "query"
+          },
+          {
+            "start": 11,
+            "end": 16,
+            "value": "1080p",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "pulp fiction",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "pulp fiction",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "pulp fiction 720p",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "pulp fiction",
+            "entity": "query"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "720p",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch the tv show this is us ",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "tv show",
+            "entity": "type"
+          },
+          {
+            "start": 28,
+            "end": 39,
+            "value": "this is us ",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "movie birdman Netflix",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "movie",
+            "entity": "type"
+          },
+          {
+            "start": 6,
+            "end": 13,
+            "value": "birdman",
+            "entity": "query"
+          },
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "watch the hobbit on primevideo",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 6,
+            "end": 16,
+            "value": "the hobbit",
+            "entity": "query"
+          },
+          {
+            "start": 20,
+            "end": 30,
+            "value": "primevideo",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "the hobbit ",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "the hobbit ",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "is detective pikachu available on Netflix?",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 3,
+            "end": 20,
+            "value": "detective pikachu",
+            "entity": "query"
+          },
+          {
+            "start": 34,
+            "end": 41,
+            "value": "Netflix",
+            "entity": "provider"
+          }
+        ]
+      },
+      {
+        "text": "John wick 3 torrent",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "John wick 3",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "John wick 3 hd torrent",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "John wick 3",
+            "entity": "query"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "hd",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "detective pikachu full hd torrent",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 17,
+            "value": "detective pikachu",
+            "entity": "query"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "full hd",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "download John wick 3",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 9,
+            "end": 20,
+            "value": "John wick 3",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "download stranger things tv show",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "stranger things",
+            "entity": "query"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "tv show",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "download friends season 8 tv show",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "friends",
+            "entity": "query"
+          },
+          {
+            "start": 24,
+            "end": 25,
+            "value": "8",
+            "entity": "season_number"
+          },
+          {
+            "start": 26,
+            "end": 33,
+            "value": "tv show",
+            "entity": "type"
+          }
+        ]
+      },
+      {
+        "text": "pulp fiction bluray ",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "pulp fiction",
+            "entity": "query"
+          },
+          {
+            "start": 13,
+            "end": 19,
+            "value": "bluray",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "pulp fiction full hd torrent",
+        "intent": "want_torrent_links",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "pulp fiction",
+            "entity": "query"
+          },
+          {
+            "start": 13,
+            "end": 20,
+            "value": "full hd",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "get me donnie Darko ",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "donnie Darko",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me donnie darko in 1080p",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "donnie darko",
+            "entity": "query"
+          },
+          {
+            "start": 23,
+            "end": 28,
+            "value": "1080p",
+            "entity": "quality"
+          }
+        ]
+      },
+      {
+        "text": "I want to watch donnie Darko in blu-ray",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 16,
+            "end": 28,
+            "value": "donnie Darko",
+            "entity": "query"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "value": "blu-ray",
+            "entity": "quality"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

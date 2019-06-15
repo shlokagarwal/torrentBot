@@ -1,21 +1,56 @@
+entities:
+  - user_location
+  - quality
+  - movie_name
+  - type
+  - primevideo_flag
+  - netflix_flag
+  - device
+  - provider
+  - query
+  - season_number
+
+
 intents:
   - greet
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - out_of_scope
+  - want_to_watch
+  - want_torrent_links
+  - thank
+  - inform_device
+  - inform_provider
+
+
 
 actions:
+- utter_ask_name
+- utter_sorry
 - utter_greet
-- utter_cheer_up
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- action_correct_name_question
+- action_fetch_stream
+- action_fetch_torrent
+- utter_ask_device
+
+
 
 templates:
+  utter_ask_name:
+  - text: "Enter the name of the movie or tv show as accurately as possible, lol." 
+  - text: "what do you want to watch?"
+  - text: "kya dekhna hai couch potato?"
+  - text: "have faith in me and tell me the name of the movie or tv show you want to watch."
   utter_greet:
   - text: "Hey! How are you?"
+  - text: "Hey moviebuff, which movie do you want to watch today?"
+  - text: "What's up?"
+  - text: "kya haal chaal?"
+  - text: "ae bidu!"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -27,5 +62,16 @@ templates:
   utter_happy:
   - text: "Great carry on!"
 
+  utter_ask_device:
+  - text: "what device are you using web/ios/android?"
+
   utter_goodbye:
   - text: "Bye"
+  - text: "Happy watching!"
+
+  utter_sorry:
+  - text: "Sorry, i'm still learning."
+  - text: "still learning about humans, maybe next time i'll be able to help you."
+  - text: "try again next time, i'm still learning."
+  - text: "i'm trying to improve."
+
