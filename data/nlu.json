@@ -1292,10 +1292,110 @@
             "entity": "quality"
           }
         ]
+      },
+      {
+        "text": "get me Ghajini",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "Ghajini",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me lego",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "lego",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me x-men",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "x-men",
+            "entity": "query"
+          }
+        ]
+      },
+      {
+        "text": "get me glass movie",
+        "intent": "want_to_watch",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "glass",
+            "entity": "query"
+          },
+          {
+            "start": 13,
+            "end": 18,
+            "value": "movie",
+            "entity": "type"
+          }
+        ]
       }
     ],
     "regex_features": [],
-    "lookup_tables": [],
-    "entity_synonyms": []
+    "lookup_tables": [
+      {
+        "name": "query",
+        "elements": "backend/output.txt"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "prime",
+        "synonyms": [
+          "primevideo",
+          "prime-video",
+          "amazon video",
+          "amazon prime video",
+          "amazon primevideo"
+        ]
+      },
+      {
+        "value": "tv show",
+        "synonyms": [
+          "tv series",
+          "tv",
+          "season",
+          "web series",
+          "tvshow"
+        ]
+      },
+      {
+        "value": "720p",
+        "synonyms": [
+          "hd",
+          "hd 720p",
+          "720p hd",
+          "hdtv"
+        ]
+      },
+      {
+        "value": "1080p",
+        "synonyms": [
+          "full hd",
+          "full hd 1080p",
+          "full-hd",
+          "1080p hd",
+          "bluray",
+          "blu-ray"
+        ]
+      }
+    ]
   }
 }

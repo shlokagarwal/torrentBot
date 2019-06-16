@@ -1,8 +1,10 @@
 ## happy path
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
+* want_to_watch
+  - action_listen
+  - action_fetch_providers
+* inform_provider
 
 ## sad path 1
 * greet
